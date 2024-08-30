@@ -1,7 +1,7 @@
 <div align="center">
   
   # Spark
-  Ignite your code with a spark. ✨
+  :sparkles: Ignite your code with a spark.
 </div>
 
 > [!WARNING]  
