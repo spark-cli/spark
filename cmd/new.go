@@ -7,11 +7,14 @@ import (
 )
 
 var newCmd = &cobra.Command{
-	Use:   "new",
+	Use:   "new [flags] source [directory]",
 	Short: "Spark new project",
-  Long: `Sparks a new project from a template.`,
+	Long:  `Sparks a new project from a template.`,
+	Args:  cobra.RangeArgs(1, 2),
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("new called")
+		source := args[0]
+
+		fmt.Printf("Sparking new %v\n", source)
 	},
 }
 
