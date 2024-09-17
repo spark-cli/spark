@@ -6,7 +6,6 @@ import (
 	"strings"
 
 	"net/url"
-	"os"
 	"path/filepath"
 
 	"github.com/go-playground/validator/v10"
